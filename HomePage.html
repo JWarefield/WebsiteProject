@@ -1,28 +1,183 @@
-<!DOCTYPE>
+﻿<!DOCTYPE>
 <html>
+<head>
+<script src="https://kit.fontawesome.com/4a97906425.js"></script>
+</head>
 
-<!--Sets Background-->
+
 <style>
+
+
+.button1 {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: maroon;
+  border: none;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: fixed;
+  bottom: 110;
+  right: 710;
+  border-style: solid;
+  border-color: white;
+}
+
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.button1:after {
+        content: '\f1ad';
+        font-family: FontAwesome;
+        padding-left: 10px;
+}
+
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.button2 {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: maroon;
+  border: none;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: fixed;
+  bottom: 110;
+  right: 300;
+  border-style: solid;
+  border-color: white;
+}
+
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.button2:after {
+        content: '\f19d';
+        font-family: FontAwesome;
+        padding-left: 10px;
+}
+
+
+.button2 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+
+img {
+width:235px;
+height:315px;
+position: fixed;
+right: 535;
+border-style: solid;
+border-color: maroon;
+transition: width 2s, height 2s;
+
+
+}
+
+
+
+
 body {
-  background-image: url('LHU.jpg');
+  background-image: url('LHU-campus-lawn.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
+
+
 </style>
 
-	<head>
-	<title> Lock Haven Virtual Tour</title>
-	</head>
+
+
+
 <body>
-	<header>
-		<h1><center>Lock Haven Virtual Tour</center></h1>
-		<!--Creates List-->
-		<ul>
-			<li><a href = "MapPage.html">Interactive Map</a></li>
-			<li><a href = "TourPage.html">Guided Tour</a></li>
-			<li><a href = "ContactPage.html">Contact LHU</a></li>
-		<ul>	
-		
+
+
+<button class="button1" style="vertical-align:center"><span>Building Tours </span></button>
+
+
+<button class="button2" style="vertical-align:center"><span>Campus Tour </span> </button>
+
+
+
+
+<img src="lhu2.png">
+
+
+
+
 </body>
 </html>
