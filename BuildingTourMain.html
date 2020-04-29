@@ -1,0 +1,222 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/4a97906425.js"></script>
+
+    <style>
+      .container {
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        width: 25%;
+        box-shadow: 10px 10px 5px black;
+        border-radius: 15%;
+      }
+
+      .container2 {
+        position: absolute;
+        top: 80px;
+        left: 470px;
+        width: 24%;
+        box-shadow: 10px 10px 5px black;
+        border-radius: 15%;
+      }
+
+      .container3 {
+        position: absolute;
+        top: 87px;
+        left: 870px;
+        width: 29%;
+        box-shadow: 10px 10px 5px black;
+        border-radius: 15%;
+      }
+
+      .container4 {
+        position: absolute;
+        top: 325px;
+        left: 50px;
+        width: 25%;
+        box-shadow: 10px 10px 5px black;
+        border-radius: 15%;
+      }
+
+      .container5 {
+        position: absolute;
+        top: 325px;
+        left: 470px;
+        width: 25%;
+        box-shadow: 10px 10px 5px black;
+        border-radius: 15%;
+      }
+
+      .container6 {
+        position: absolute;
+        top: 340px;
+        left: 860px;
+        width: 31%;
+        box-shadow: 10px 10px 5px black;
+        border-radius: 15%;
+      }
+
+      .image {
+        border-radius: 15%;
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      .overlay {
+        border-radius: 15%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: 0.5s ease;
+      }
+
+      .container:hover .overlay {
+        width: 100%;
+      }
+
+      .container2:hover .overlay {
+        width: 100%;
+      }
+
+      .container3:hover .overlay {
+        width: 100%;
+      }
+
+      .container4:hover .overlay {
+        width: 100%;
+      }
+
+      .container5:hover .overlay {
+        width: 100%;
+      }
+
+      .container6:hover .overlay {
+        width: 100%;
+      }
+
+      .text {
+        white-space: nowrap;
+        color: maroon;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+
+      body {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("red_white_wallpaper.jpg");
+        background-size: 1500px 1000px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: maroon;
+      }
+
+      .active {
+        background-color: maroon;
+      }
+
+      
+    </style>
+
+    <script>
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?73c27e26f610eb3c9f3feb0c75b03925";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <ul>
+      <li><a class="fas fa-home" href="HomePage.html"></a></li>
+      <li><a class="active" href="BuildingTourMain.html">Building Tours</a></li>
+      <li><a href=>Campus Tour</a></li>
+    </ul>
+
+    <div class="container">
+      <a href="UlmerPage.html" />
+      <img src="Ulmer.jpg" alt="Ulmer" class="image" />
+      <div class="overlay">
+        <div class="text">Ulmer Hall</div>
+      </div>
+    </div>
+    <div class="container2">
+      <a href="LibraryPage.html" />
+      <img src="Library.jpg" alt="Library" class="image" />
+      <div class="overlay">
+        <div class="text">Stevenson Library</div>
+      </div>
+    </div>
+    <div class="container3">
+      <a href="" />
+      <img src="Bentley.jpg" alt="Bentley Dining Hall" class="image"/>
+      <div class="overlay">
+        <div class="text">Bentley Dining Hall</div>
+      </div>
+    </div>
+    <div class="container4">
+      <a href="" />
+      <img src="Akeley.jpg" alt="Akeley" class="image"/>
+      <div class="overlay">
+        <div class="text">Akeley Hall</div>
+      </div>
+    </div>
+    <div class="container5">
+      <a href="" />
+      <img src="Durrwachter.jpg" alt="Durrwachter" class="image"/>
+      <div class="overlay">
+        <div class="text">Durrwachter Alumni Conference Center</div>
+      </div>
+    </div>
+    <div class="container6">
+      <a href="" />
+      <img src="Woolridge.jpg" alt="Woolridge Hall" class="image"/>
+      <div class="overlay">
+        <div class="text">Woolridge Hall</div>
+      </div>
+    </div>
+
+  </body>
+</html>
