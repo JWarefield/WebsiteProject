@@ -6,25 +6,26 @@
 
   <style>
     .button1 {
+	margin 0;
       display: inline-block;
       border-radius: 25px;
       background-color: maroon;
-      border: none;
       color: white;
+      border-style: solid;
+      border-color: white;
       font-family: "Serif";
       text-align: center;
       text-shadow: 2px 2px 4px #000000;
       font-size: 28px;
       padding: 20px;
       width: 300px;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin: 5px;
-      position: fixed;
-      bottom: 110;
-      right: 710;
-      border-style: solid;
-      border-color: white;
+      position: absolute;
+      top: 60%;
+      left: 30%;
+     -ms-transform: translate(-50%, -40%);
+      transform: translate(-50%, -40%);
+      
+
     }
 
     .button1 span {
@@ -67,7 +68,6 @@
       display: inline-block;
       border-radius: 25px;
       background-color: maroon;
-      border: none;
       color: white;
       text-align: center;
       text-shadow: 2px 2px 4px #000000;
@@ -75,14 +75,13 @@
       font-family: "Serif";
       padding: 20px;
       width: 300px;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin: 5px;
-      position: fixed;
-      bottom: 110;
-      right: 300;
       border-style: solid;
       border-color: white;
+      position: absolute;
+      top: 60%;
+      left: 70%;
+      -ms-transform: translate(-50%, -40%);
+      transform: translate(-50%, -40%);
     }
 
     .button2 span {
@@ -122,14 +121,16 @@
     }
 
     img {
-      width: 235px;
       height: 315px;
-      position: fixed;
-      top: 25px;
-      right: 535;
+      display: block;
+      margin: 0;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       border-style: solid;
       border-color: maroon;
-      transition: width 2s, height 2s;
     }
 
     body {
@@ -150,9 +151,11 @@
       </button>
     </a>
 
+    <a href="CampusTour.html">
     <button class="button2" style="vertical-align: center;">
       <span>Campus Tour </span>
     </button>
+    </a>
 
     <img src="lhu2.png" />
   </body>
